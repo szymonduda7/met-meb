@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Usługi meblarskie | Met-Meb Krzysztof Niedzielski, Wola Żyrakowska</title>
+<meta name="description" content="Szafy przesuwne, zabudowy wnęk i poddaszy, meble kuchenne, łazienkowe, pokoje dziecięce, wymiana frontów i elementów meblowych. Met-Meb, Wola Żyrakowska k. Dębicy.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&family=Sofia+Sans+Extra+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.js"></script>
+<link rel="stylesheet" href="styles.css">
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          ink: '#1d1f22',
+          'ink-soft': '#55585c',
+          melamine: '#e7e8e3',
+          board: '#f6f6f3',
+          graphite: '#1d1f22',
+          'graphite-raised': '#272a2e',
+          oak: '#a8743f',
+          'oak-dark': '#85592c',
+          'oak-light': '#d2a877',
+          mist: '#a7aaa6',
+        },
+        fontFamily: {
+          display: ['"Sofia Sans Extra Condensed"', 'sans-serif'],
+          sans: ['"Onest"', 'sans-serif'],
+        },
+      },
+    },
+  };
+</script>
+</head>
+<body class="bg-melamine text-ink">
+
+<!-- ============ HEADER ============ -->
+<header id="site-header" class="site-header fixed top-0 left-0 right-0 z-50">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 h-16 md:h-20 flex items-center justify-between gap-4">
+    <a href="index.html" class="wordmark" aria-label="Met-Meb, strona główna">
+      <span class="wordmark-name">Met-Meb</span>
+      <span class="wordmark-sub">usługi meblarskie</span>
+    </a>
+    <nav class="hidden md:flex items-center gap-8 text-sm font-medium" aria-label="Główna nawigacja">
+      <a href="uslugi.html" class="nav-link" aria-current="page">Usługi</a>
+      <a href="index.html#realizacje" class="nav-link">Realizacje</a>
+      <a href="index.html#jak-pracuje" class="nav-link">Jak pracuję</a>
+      <a href="index.html#opinie" class="nav-link">Opinie</a>
+      <a href="index.html#kontakt" class="nav-link">Kontakt</a>
+    </nav>
+    <a href="tel:507563477" class="btn btn-primary px-4 md:px-5 py-2.5 text-sm" aria-label="Zadzwoń: 507 563 477">
+      <i data-lucide="phone" class="w-4 h-4"></i>
+      <span class="hidden sm:inline">507 563 477</span>
+    </a>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ PAGE HERO ============ -->
+<section class="relative overflow-hidden pt-28 md:pt-36 pb-14 md:pb-16 px-5 md:px-8">
+  <div class="grain"></div>
+  <div class="relative max-w-7xl mx-auto">
+    <a href="index.html" class="inline-flex items-center gap-2 text-sm font-medium text-ink-soft hover:text-oak-dark active:text-ink transition-colors mb-8">
+      <i data-lucide="arrow-left" class="w-4 h-4"></i>
+      Strona główna
+    </a>
+    <h1 class="heading-xl text-6xl sm:text-8xl lg:text-[7.25rem] max-w-5xl">
+      Usługi <span class="text-oak">meblarskie</span>
+    </h1>
+    <p class="mt-6 text-lg md:text-xl text-ink-soft max-w-2xl">
+      Projektuję, wykonuję i montuję meble pod konkretne wnętrze. Poniżej znajdziesz, czym zajmuję się na co dzień, razem ze zdjęciami prac dla klientów.
+    </p>
+    <div class="dim dim-h draw mt-12 max-w-5xl" aria-hidden="true">
+      <span class="dim-tick"></span><span class="dim-line"></span><span class="dim-label">Każdy mebel na wymiar</span><span class="dim-line"></span><span class="dim-tick"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICE CARDS ============ -->
+<section class="pb-20 md:pb-28 px-5 md:px-8">
+  <div class="max-w-7xl mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+    <article id="szafy" class="surface-card is-hoverable photo-tile rounded-2xl overflow-hidden flex flex-col reveal">
+      <div class="aspect-[4/3] overflow-hidden bg-graphite"><img src="images/9.webp" alt="Narożna szafa z drzwiami przesuwnymi w dekorze dębu z czarnym szkłem" class="w-full h-full object-cover" loading="lazy"></div>
+      <div class="p-7 flex flex-col flex-1">
+        <h2 class="font-display font-bold uppercase text-3xl tracking-[0.01em] leading-none mb-3">Szafy z drzwiami przesuwnymi</h2>
+        <p class="text-ink-soft">Szafy wnękowe i narożne od podłogi do sufitu. Drzwi z płyty, lustra lub szkła, w środku półki, drążki i szuflady.</p>
+        <ul class="mt-5 pt-5 border-t border-black/10 space-y-2 text-sm">
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-dark shrink-0"></i>Wnętrze rozplanowane pod Twoje rzeczy</li>
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-dark shrink-0"></i>Fronty łączone z lustrem lub szkłem</li>
+        </ul>
+      </div>
+    </article>
+
+    <article id="zabudowy" class="surface-card is-hoverable photo-tile rounded-2xl overflow-hidden flex flex-col reveal">
+      <div class="aspect-[4/3] overflow-hidden bg-graphite"><img src="images/18.webp" alt="Biała zabudowa szafy od podłogi do sufitu w przedpokoju" class="w-full h-full object-cover" loading="lazy"></div>
+      <div class="p-7 flex flex-col flex-1">
+        <h2 class="font-display font-bold uppercase text-3xl tracking-[0.01em] leading-none mb-3">Zabudowy wnęk i garderoby</h2>
+        <p class="text-ink-soft">Wykorzystuję każdy centymetr wnęki w przedpokoju, sypialni czy łazience. Fronty bezuchwytowe lub z uchwytami, w kolorze ścian albo w drewnie.</p>
+        <ul class="mt-5 pt-5 border-t border-black/10 space-y-2 text-sm">
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-dark shrink-0"></i>Pełna wysokość pomieszczenia</li>
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-dark shrink-0"></i>Dopasowanie do nierównych ścian</li>
+        </ul>
+      </div>
+    </article>
+
+    <article id="poddasza" class="surface-card is-hoverable photo-tile rounded-2xl overflow-hidden flex flex-col reveal">
+      <div class="aspect-[4/3] overflow-hidden bg-graphite"><img src="images/10.webp" alt="Białe szafki wiszące dopasowane do skosu na poddaszu" class="w-full h-full object-cover" loading="lazy"></div>
+      <div class="p-7 flex flex-col flex-1">
+        <h2 class="font-display font-bold uppercase text-3xl tracking-[0.01em] leading-none mb-3">Zabudowy poddaszy</h2>
+        <p class="text-ink-soft">Szafki i szafy docięte pod skos dachu. Gotowe meble rzadko pasują na poddaszu, a zabudowa na wymiar zamienia skosy w schowki.</p>
+        <ul class="mt-5 pt-5 border-t border-black/10 space-y-2 text-sm">
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-dark shrink-0"></i>Korpusy i fronty pod kąt skosu</li>
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-dark shrink-0"></i>Szafki stojące i wiszące</li>
+        </ul>
+      </div>
+    </article>
+
+    <article id="kuchnie" class="surface-card is-hoverable photo-tile rounded-2xl overflow-hidden flex flex-col reveal">
+      <div class="aspect-[4/3] overflow-hidden bg-graphite"><img src="images/11.webp" alt="Kuchnia z czarnymi frontami i dębowym blatem" class="w-full h-full object-cover" loading="lazy"></div>
+      <div class="p-7 flex flex-col flex-1">
+        <h2 class="font-display font-bold uppercase text-3xl tracking-[0.01em] leading-none mb-3">Meble kuchenne</h2>
+        <p class="text-ink-soft">Zabudowy kuchenne z blatem, wycięciami pod zlew i płytę oraz szufladami tam, gdzie są najwygodniejsze.</p>
+        <ul class="mt-5 pt-5 border-t border-black/10 space-y-2 text-sm">
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-dark shrink-0"></i>Szafki dolne, górne i słupki</li>
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-dark shrink-0"></i>Dobór frontów, blatu i uchwytów</li>
+        </ul>
+      </div>
+    </article>
+
+    <article id="lazienki" class="surface-card is-hoverable photo-tile rounded-2xl overflow-hidden flex flex-col reveal">
+      <div class="aspect-[4/3] overflow-hidden bg-graphite"><img src="images/3.webp" alt="Szafka łazienkowa z dębowym blatem i umywalką nablatową" class="w-full h-full object-cover" loading="lazy"></div>
+      <div class="p-7 flex flex-col flex-1">
+        <h2 class="font-display font-bold uppercase text-3xl tracking-[0.01em] leading-none mb-3">Meble łazienkowe</h2>
+        <p class="text-ink-soft">Szafki pod umywalkę z blatem, zabudowy pralki, wysokie słupki i półki we wnękach. Dobrze wykorzystana nawet mała łazienka.</p>
+        <ul class="mt-5 pt-5 border-t border-black/10 space-y-2 text-sm">
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-dark shrink-0"></i>Blaty pod umywalki nablatowe</li>
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-dark shrink-0"></i>Zabudowa pralki i instalacji</li>
+        </ul>
+      </div>
+    </article>
+
+    <article id="pokoje" class="surface-card is-hoverable photo-tile rounded-2xl overflow-hidden flex flex-col reveal">
+      <div class="aspect-[4/3] overflow-hidden bg-graphite"><img src="images/8.webp" alt="Pokój dziecięcy z łóżkiem na antresoli, schodkami z szufladami i biurkiem" class="w-full h-full object-cover" loading="lazy"></div>
+      <div class="p-7 flex flex-col flex-1">
+        <h2 class="font-display font-bold uppercase text-3xl tracking-[0.01em] leading-none mb-3">Pokoje dziecięce i młodzieżowe</h2>
+        <p class="text-ink-soft">Łóżka na antresoli ze schodkami z szufladami, biurka, szafy i półki. Kolory dobrane do pokoju i do dziecka.</p>
+        <ul class="mt-5 pt-5 border-t border-black/10 space-y-2 text-sm">
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-dark shrink-0"></i>Spanie, nauka i schowki w jednym</li>
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-dark shrink-0"></i>Komplet mebli do całego pokoju</li>
+        </ul>
+      </div>
+    </article>
+
+    <article id="komody" class="surface-card is-hoverable photo-tile rounded-2xl overflow-hidden flex flex-col reveal">
+      <div class="aspect-[4/3] overflow-hidden bg-graphite"><img src="images/12.webp" alt="Biała komoda z szufladami i szafką oraz szarym blatem" class="w-full h-full object-cover" loading="lazy"></div>
+      <div class="p-7 flex flex-col flex-1">
+        <h2 class="font-display font-bold uppercase text-3xl tracking-[0.01em] leading-none mb-3">Komody i szafki</h2>
+        <p class="text-ink-soft">Komody, szafki RTV i szafki wolnostojące o szerokości dopasowanej do ściany, z szufladami i drzwiczkami w potrzebnych proporcjach.</p>
+        <ul class="mt-5 pt-5 border-t border-black/10 space-y-2 text-sm">
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-dark shrink-0"></i>Szuflady i drzwiczki w dowolnym układzie</li>
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-dark shrink-0"></i>Wymiar pod konkretne miejsce</li>
+        </ul>
+      </div>
+    </article>
+
+    <article id="loft" class="surface-card is-hoverable photo-tile rounded-2xl overflow-hidden flex flex-col reveal">
+      <div class="aspect-[4/3] overflow-hidden bg-graphite"><img src="images/5.webp" alt="Stół z dębowym blatem na czarnych stalowych nogach" class="w-full h-full object-cover" loading="lazy"></div>
+      <div class="p-7 flex flex-col flex-1">
+        <h2 class="font-display font-bold uppercase text-3xl tracking-[0.01em] leading-none mb-3">Stoły i meble z metalem</h2>
+        <p class="text-ink-soft">Stoły, biurka i kwietniki z blatami w dekorze drewna na czarnych stalowych stelażach. Proste formy, które pasują do nowoczesnych wnętrz.</p>
+        <ul class="mt-5 pt-5 border-t border-black/10 space-y-2 text-sm">
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-dark shrink-0"></i>Blat w wybranym rozmiarze</li>
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-dark shrink-0"></i>Stalowe nogi i stelaże w stylu loft</li>
+        </ul>
+      </div>
+    </article>
+
+    <article id="komplety" class="surface-card is-hoverable photo-tile rounded-2xl overflow-hidden flex flex-col reveal">
+      <div class="aspect-[4/3] overflow-hidden bg-graphite"><img src="images/7.webp" alt="Pokój młodzieżowy z szafą przesuwną, komodą, biurkiem i półkami" class="w-full h-full object-cover" loading="lazy"></div>
+      <div class="p-7 flex flex-col flex-1">
+        <h2 class="font-display font-bold uppercase text-3xl tracking-[0.01em] leading-none mb-3">Meble do całego pokoju</h2>
+        <p class="text-ink-soft">Szafa, komoda, biurko i półki zaprojektowane razem, w jednym dekorze i w jednej linii. Pokój wygląda spójnie, a nie jak zbiór przypadkowych mebli.</p>
+        <ul class="mt-5 pt-5 border-t border-black/10 space-y-2 text-sm">
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-dark shrink-0"></i>Jeden projekt dla całego wnętrza</li>
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-dark shrink-0"></i>Spójne kolory i wysokości</li>
+        </ul>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ EXISTING FURNITURE ============ -->
+<section class="relative bg-graphite text-board py-20 md:py-28 px-5 md:px-8 overflow-hidden">
+  <div class="grain"></div>
+  <div class="relative max-w-7xl mx-auto">
+    <div class="max-w-2xl mb-12">
+      <h2 class="heading-xl text-5xl md:text-7xl">Masz już meble? <span class="text-oak-light"><br>Odświeżę je.</span></h2>
+      <p class="mt-5 text-mist text-lg">Nie zawsze trzeba wymieniać całą zabudowę. Często wystarczą nowe fronty albo kilka wymienionych elementów.</p>
+    </div>
+    <div class="grid md:grid-cols-2 gap-5">
+      <article id="fronty" class="dark-card rounded-2xl p-8 reveal">
+        <span class="icon-chip mb-6"><i data-lucide="panels-top-left" class="w-5 h-5"></i></span>
+        <h3 class="font-display font-bold uppercase text-3xl tracking-[0.01em] leading-none mb-3">Wymiana frontów meblowych</h3>
+        <p class="text-mist">Nowe drzwiczki i czoła szuflad montowane na sprawnych korpusach. Zmieniasz kolor i styl kuchni czy szafy dużo mniejszym kosztem niż przy nowej zabudowie.</p>
+        <ul class="mt-6 pt-6 border-t border-white/10 space-y-2 text-sm text-board">
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-light shrink-0"></i>Pomiar istniejących korpusów</li>
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-light shrink-0"></i>Nowe uchwyty i regulacja zawiasów</li>
+        </ul>
+      </article>
+      <article id="montaz" class="dark-card rounded-2xl p-8 reveal">
+        <span class="icon-chip mb-6"><i data-lucide="wrench" class="w-5 h-5"></i></span>
+        <h3 class="font-display font-bold uppercase text-3xl tracking-[0.01em] leading-none mb-3">Wymiana i montaż elementów meblowych</h3>
+        <p class="text-mist">Wymieniam zużyte blaty, zawiasy, prowadnice, półki i uchwyty. Montuję też pojedyncze elementy dorabiane do mebli, które już stoją.</p>
+        <ul class="mt-6 pt-6 border-t border-white/10 space-y-2 text-sm text-board">
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-light shrink-0"></i>Blaty, półki i okucia</li>
+          <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 mt-1 text-oak-light shrink-0"></i>Dorabianie brakujących elementów</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="py-20 md:py-28 px-5 md:px-8">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="heading-xl text-5xl md:text-7xl">Nie wiesz, czy da się to <span class="text-oak">zabudować?</span></h2>
+    <p class="mt-6 text-ink-soft text-lg max-w-2xl mx-auto">Zadzwoń i opisz miejsce. Jeśli trzeba, przyjadę zmierzyć wnętrze i powiem, co da się z nim zrobić.</p>
+    <div class="mt-9 flex flex-wrap justify-center gap-3">
+      
+      <a href="index.html#realizacje" class="btn btn-ghost px-7 py-4 text-base">
+        Zobacz realizacje
+        <i data-lucide="arrow-right" class="w-5 h-5"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="bg-graphite text-board px-5 md:px-8 pt-16 pb-24 md:pb-8">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid md:grid-cols-3 gap-10 mb-12">
+      <div>
+        <div class="wordmark mb-4">
+          <span class="wordmark-name">Met-Meb</span>
+          <span class="wordmark-sub !text-mist">usługi meblarskie</span>
+        </div>
+        <p class="text-mist text-sm max-w-xs">Meble na wymiar i zabudowy od Krzysztofa Niedzielskiego z Woli Żyrakowskiej.</p>
+      </div>
+      <div class="text-sm">
+        <div class="font-label text-xs text-mist mb-4">Nawigacja</div>
+        <ul class="space-y-2">
+          <li><a href="uslugi.html" class="footer-link">Usługi</a></li>
+          <li><a href="index.html#realizacje" class="footer-link">Realizacje</a></li>
+          <li><a href="index.html#jak-pracuje" class="footer-link">Jak pracuję</a></li>
+          <li><a href="index.html#opinie" class="footer-link">Opinie</a></li>
+          <li><a href="index.html#kontakt" class="footer-link">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="text-sm">
+        <div class="font-label text-xs text-mist mb-4">Kontakt</div>
+        <ul class="space-y-2">
+          <li><a href="tel:507563477" class="footer-link !text-board font-semibold">507 563 477</a></li>
+          <li class="text-mist">Wola Żyrakowska 20</li>
+          <li class="text-mist">39-204 Żyraków, woj. podkarpackie</li>
+        </ul>
+      </div>
+    </div>
+    <div class="pt-8 border-t border-white/10 flex flex-wrap items-center justify-between gap-4 text-xs text-mist">
+      <span>© 2026 Firma Handlowo-Usługowa MET-MEB Krzysztof Niedzielski</span>
+      <span>NIP 8721989169 · REGON 383489429</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ MOBILE CALL BAR ============ -->
+<a href="tel:507563477" id="call-bar" class="call-bar btn btn-oak py-4 text-base">
+  <i data-lucide="phone-call" class="w-5 h-5"></i>
+  Zadzwoń: 507 563 477
+</a>
+
+<script>
+  lucide.createIcons();
+
+  const header = document.getElementById('site-header');
+  const callBar = document.getElementById('call-bar');
+  const onScroll = () => {
+    header.classList.toggle('is-scrolled', window.scrollY > 12);
+    callBar.classList.toggle('is-visible', window.scrollY > window.innerHeight * 0.5);
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
